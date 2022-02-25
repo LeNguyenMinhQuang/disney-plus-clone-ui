@@ -73,35 +73,35 @@ const UserImg = styled.img`
 function Header() {
   return (
     <Nav>
-      <Logo src="/images/logo.svg" />
+      <Logo src="./images/logo.svg" />
       <NavMenu>
         <NavLink to={"/"}>
-          <img src="/images/home-icon.svg" />
+          <img src="./images/home-icon.svg" />
           <span>HOME</span>
         </NavLink>
         <a>
-          <img src="/images/search-icon.svg" />
+          <img src="./images/search-icon.svg" />
           <span>SEARCH</span>
         </a>
         <a>
-          <img src="/images/watchlist-icon.svg" />
+          <img src="./images/watchlist-icon.svg" />
           <span>WATCHLIST</span>
         </a>
         <a>
-          <img src="/images/original-icon.svg" />
+          <img src="./images/original-icon.svg" />
           <span>ORIGINAL</span>
         </a>
         <a>
-          <img src="/images/movie-icon.svg" />
+          <img src="./images/movie-icon.svg" />
           <span>MOVIES</span>
         </a>
         <a>
-          <img src="/images/series-icon.svg" />
+          <img src="./images/series-icon.svg" />
           <span>SERIES</span>
         </a>
       </NavMenu>
       <a className="loginbutton">
-        <UserImg src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-1/273274778_1061316107760309_3545370022311045621_n.jpg?stp=dst-jpg_s320x320&_nc_cat=104&ccb=1-5&_nc_sid=7206a8&_nc_ohc=chMt_IC5SToAX9fcSG3&_nc_ht=scontent.fhan2-4.fna&oh=00_AT-WqS31gK2NCy156rstrDMw40ObnKUniCCYu9Rl0ohH7Q&oe=6211400F" />
+        <UserImg src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" />
       </a>
     </Nav>
   );
